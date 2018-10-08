@@ -1,0 +1,44 @@
+<Solution>
+  <PropertyGroup Name="Miner" Version="3.10.0.0" Type="CocosStudio" />
+  <SolutionFolder>
+    <Group ctype="ResourceGroup">
+      <RootFolder Name=".">
+        <Folder Name="image">
+          <Folder Name="item">
+            <Image Name="item_aim.png" />
+            <Image Name="item_appreciate.png" />
+            <Image Name="item_fire.png" />
+            <Image Name="item_focus.png" />
+            <Image Name="item_magnet.png" />
+            <Image Name="item_power.png" />
+            <Image Name="item_radar.png" />
+            <Image Name="item_scale.png" />
+            <Image Name="item_time.png" />
+          </Folder>
+          <Folder Name="layer">
+            <Folder Name="main">
+              <Image Name="award_bg.png" />
+              <Image Name="bg.png" />
+              <Image Name="broadcast.png" />
+              <Image Name="dialog_bg.png" />
+              <Image Name="dialog_info.png" />
+              <Image Name="money.png" />
+              <Image Name="money_add.png" />
+              <Image Name="money_bg.png" />
+              <Image Name="num_item.png" />
+              <Image Name="num_money.png" />
+              <Image Name="num_time.png" />
+              <Image Name="share.png" />
+              <Image Name="shop.png" />
+              <Image Name="start.png" />
+              <Image Name="symbol.png" />
+              <Image Name="tips_bg.png" />
+            </Folder>
+          </Folder>
+          <Folder Name="sprite" />
+        </Folder>
+        <Project Name="main.csd" Type="Scene" />
+      </RootFolder>
+    </Group>
+  </SolutionFolder>
+</Solution>
