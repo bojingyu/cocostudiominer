@@ -66,6 +66,7 @@
               <Image Name="item_tips5.png" />
               <Image Name="item_tips6.png" />
               <Image Name="item_tips7.png" />
+              <Image Name="num_price.png" />
               <Image Name="shop_bg.jpg" />
             </Folder>
           </Folder>
