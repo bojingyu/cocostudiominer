@@ -18,7 +18,7 @@
           <Folder Name="layer">
             <Folder Name="main">
               <Image Name="award_bg.png" />
-              <Image Name="bg.png" />
+              <Image Name="bg.jpg" />
               <Image Name="broadcast.png" />
               <Image Name="dialog_bg.png" />
               <Image Name="dialog_info.png" />
@@ -34,10 +34,45 @@
               <Image Name="symbol.png" />
               <Image Name="tips_bg.png" />
             </Folder>
+            <Folder Name="shop">
+              <Image Name="btn_add0.png" />
+              <Image Name="btn_add1.png" />
+              <Image Name="btn_buy.png" />
+              <Image Name="btn_buy0.png" />
+              <Image Name="btn_buy1.png" />
+              <Image Name="btn_close.png" />
+              <Image Name="btn_shop0.png" />
+              <Image Name="btn_shop1.png" />
+              <Image Name="buy.png" />
+              <Image Name="empty.png" />
+              <Image Name="history_header.png" />
+              <Image Name="history_info_bg.png" />
+              <Image Name="item_info0.png" />
+              <Image Name="item_info1.png" />
+              <Image Name="item_info2.png" />
+              <Image Name="item_info3.png" />
+              <Image Name="item_info4.png" />
+              <Image Name="item_info5.png" />
+              <Image Name="item_info6.png" />
+              <Image Name="item_info7.png" />
+              <Image Name="item_infobar.png" />
+              <Image Name="item_price_bg.png" />
+              <Image Name="item_pricebar.png" />
+              <Image Name="item_tips0.png" />
+              <Image Name="item_tips1.png" />
+              <Image Name="item_tips2.png" />
+              <Image Name="item_tips3.png" />
+              <Image Name="item_tips4.png" />
+              <Image Name="item_tips5.png" />
+              <Image Name="item_tips6.png" />
+              <Image Name="item_tips7.png" />
+              <Image Name="shop_bg.jpg" />
+            </Folder>
           </Folder>
           <Folder Name="sprite" />
         </Folder>
         <Project Name="main.csd" Type="Scene" />
+        <Project Name="shop.csd" Type="Scene" />
       </RootFolder>
     </Group>
   </SolutionFolder>

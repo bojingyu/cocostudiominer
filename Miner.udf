@@ -32,8 +32,9 @@
       <Value ctype="TabsInfo">
         <OpenedDocuments>
           <FilePathData Path="main.csd" />
+          <FilePathData Path="shop.csd" />
         </OpenedDocuments>
-        <ActiveDocument Path="main.csd" />
+        <ActiveDocument Path="shop.csd" />
       </Value>
     </Item>
   </Properties>
