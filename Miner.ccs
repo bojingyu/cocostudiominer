@@ -68,12 +68,44 @@
               <Image Name="item_tips7.png" />
               <Image Name="num_price.png" />
               <Image Name="shop_bg.jpg" />
+              <Image Name="time_num.png" />
+            </Folder>
+            <Folder Name="stage">
+              <Image Name="bg_l0.jpg" />
+              <Image Name="bg_l1.jpg" />
+              <Image Name="bg_r.png" />
+              <Image Name="close.png" />
+              <Image Name="item_0.png" />
+              <Image Name="item_1.png" />
+              <Image Name="item_2.png" />
+              <Image Name="item_3.png" />
+              <Image Name="item_4.png" />
+              <Image Name="item_5.png" />
+              <Image Name="item_6.png" />
+              <Image Name="item_7.png" />
+              <Image Name="play.png" />
+              <Image Name="protected_bar.png" />
+              <Image Name="protected_bg.png" />
+              <Image Name="protected_g.png" />
+              <Image Name="protected_num.png" />
+              <Image Name="protected_r.png" />
+              <Image Name="stage_a.png" />
+              <Image Name="stage_b.png" />
+              <Image Name="stage_bg.jpg" />
+              <Image Name="stage_c.png" />
+              <Image Name="stage_name_bg.png" />
+              <Image Name="stage_num.png" />
+              <Image Name="tab_l0.png" />
+              <Image Name="tab_l1.png" />
+              <Image Name="tab_r0.png" />
+              <Image Name="tab_r1.png" />
             </Folder>
           </Folder>
           <Folder Name="sprite" />
         </Folder>
         <Project Name="main.csd" Type="Scene" />
         <Project Name="shop.csd" Type="Scene" />
+        <Project Name="stage.csd" Type="Scene" />
       </RootFolder>
     </Group>
   </SolutionFolder>
