@@ -480,7 +480,7 @@
             <PrePosition X="0.3231" Y="-0.1486" />
             <PreSize X="0.0000" Y="0.0000" />
           </AbstractNodeData>
-          <AbstractNodeData Name="Button_3" ActionTag="1432707333" Tag="87" IconVisible="False" LeftMargin="422.6900" RightMargin="1170.3101" TopMargin="215.5000" BottomMargin="765.5000" TouchEnable="True" FontSize="14" LeftEage="15" RightEage="15" TopEage="11" BottomEage="11" Scale9OriginX="15" Scale9OriginY="11" Scale9Width="297" Scale9Height="77" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="ButtonObjectData">
+          <AbstractNodeData Name="btn_hisory" ActionTag="1432707333" Tag="87" IconVisible="False" LeftMargin="422.6900" RightMargin="1170.3101" TopMargin="215.5000" BottomMargin="765.5000" TouchEnable="True" FontSize="14" LeftEage="15" RightEage="15" TopEage="11" BottomEage="11" Scale9OriginX="15" Scale9OriginY="11" Scale9Width="297" Scale9Height="77" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="ButtonObjectData">
             <Size X="327.0000" Y="99.0000" />
             <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
             <Position X="586.1900" Y="815.0000" />
@@ -495,7 +495,7 @@
             <OutlineColor A="255" R="255" G="0" B="0" />
             <ShadowColor A="255" R="110" G="110" B="110" />
           </AbstractNodeData>
-          <AbstractNodeData Name="Button_3_0" ActionTag="998643867" Tag="88" IconVisible="False" LeftMargin="96.5000" RightMargin="1496.5000" TopMargin="215.5000" BottomMargin="765.5000" TouchEnable="True" FontSize="14" LeftEage="15" RightEage="15" TopEage="11" BottomEage="11" Scale9OriginX="15" Scale9OriginY="11" Scale9Width="297" Scale9Height="77" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="ButtonObjectData">
+          <AbstractNodeData Name="btn_shop" ActionTag="998643867" Tag="88" IconVisible="False" LeftMargin="96.5000" RightMargin="1496.5000" TopMargin="215.5000" BottomMargin="765.5000" TouchEnable="True" FontSize="14" LeftEage="15" RightEage="15" TopEage="11" BottomEage="11" Scale9OriginX="15" Scale9OriginY="11" Scale9Width="297" Scale9Height="77" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="ButtonObjectData">
             <Size X="327.0000" Y="99.0000" />
             <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
             <Position X="260.0000" Y="815.0000" />
@@ -509,6 +509,63 @@
             <NormalFileData Type="Normal" Path="image/layer/shop/btn_shop0.png" Plist="" />
             <OutlineColor A="255" R="255" G="0" B="0" />
             <ShadowColor A="255" R="110" G="110" B="110" />
+          </AbstractNodeData>
+          <AbstractNodeData Name="ListView_1" ActionTag="1157502001" Tag="88" IconVisible="False" LeftMargin="41.1403" RightMargin="641.8597" TopMargin="329.6012" BottomMargin="40.3988" TouchEnable="True" ClipAble="False" BackColorAlpha="102" ComboBoxIndex="1" ColorAngle="90.0000" ScrollDirectionType="0" DirectionType="Vertical" ctype="ListViewObjectData">
+            <Size X="1237.0000" Y="710.0000" />
+            <AnchorPoint ScaleX="0.5000" ScaleY="1.0000" />
+            <Position X="659.6403" Y="750.3988" />
+            <Scale ScaleX="1.0000" ScaleY="1.0000" />
+            <CColor A="255" R="255" G="255" B="255" />
+            <PrePosition X="0.3436" Y="0.6948" />
+            <PreSize X="0.6443" Y="0.6574" />
+            <SingleColor A="255" R="150" G="150" B="255" />
+            <FirstColor A="255" R="150" G="150" B="255" />
+            <EndColor A="255" R="255" G="255" B="255" />
+            <ColorVector ScaleY="1.0000" />
+          </AbstractNodeData>
+          <AbstractNodeData Name="buy_template" ActionTag="-1036359804" Tag="89" IconVisible="True" RightMargin="1920.0000" TopMargin="1080.0000" BottomMargin="0.0000" ctype="SingleNodeObjectData">
+            <Size X="0.0000" Y="0.0000" />
+            <Children>
+              <AbstractNodeData Name="item_pricebar_1" ActionTag="-1364524639" Tag="90" IconVisible="False" LeftMargin="-254.5000" RightMargin="-254.5000" TopMargin="-50.0000" BottomMargin="-50.0000" ctype="SpriteObjectData">
+                <Size X="509.0000" Y="100.0000" />
+                <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+                <Position />
+                <Scale ScaleX="1.0000" ScaleY="1.0000" />
+                <CColor A="255" R="255" G="255" B="255" />
+                <PrePosition />
+                <PreSize X="0.0000" Y="0.0000" />
+                <FileData Type="Normal" Path="image/layer/shop/item_pricebar.png" Plist="" />
+                <BlendFunc Src="1" Dst="771" />
+              </AbstractNodeData>
+              <AbstractNodeData Name="item_focus_12_0" ActionTag="790263418" Tag="91" IconVisible="False" LeftMargin="-229.0000" RightMargin="111.0000" TopMargin="-59.0000" BottomMargin="-59.0000" ctype="SpriteObjectData">
+                <Size X="118.0000" Y="118.0000" />
+                <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+                <Position X="-170.0000" />
+                <Scale ScaleX="0.5000" ScaleY="0.5000" />
+                <CColor A="255" R="255" G="255" B="255" />
+                <PrePosition />
+                <PreSize X="0.0000" Y="0.0000" />
+                <FileData Type="Normal" Path="image/item/item_focus.png" Plist="" />
+                <BlendFunc Src="1" Dst="771" />
+              </AbstractNodeData>
+              <AbstractNodeData Name="item_fire_13_0" ActionTag="-1650175992" Tag="92" IconVisible="False" LeftMargin="-223.0000" RightMargin="117.0000" TopMargin="-53.0000" BottomMargin="-53.0000" ctype="SpriteObjectData">
+                <Size X="106.0000" Y="106.0000" />
+                <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+                <Position X="-170.0000" />
+                <Scale ScaleX="0.5000" ScaleY="0.5000" />
+                <CColor A="255" R="255" G="255" B="255" />
+                <PrePosition />
+                <PreSize X="0.0000" Y="0.0000" />
+                <FileData Type="Normal" Path="image/item/item_fire.png" Plist="" />
+                <BlendFunc Src="1" Dst="771" />
+              </AbstractNodeData>
+            </Children>
+            <AnchorPoint />
+            <Position Y="0.0000" />
+            <Scale ScaleX="1.0000" ScaleY="1.0000" />
+            <CColor A="255" R="255" G="255" B="255" />
+            <PrePosition Y="0.0000" />
+            <PreSize X="0.0000" Y="0.0000" />
           </AbstractNodeData>
         </Children>
       </ObjectData>
