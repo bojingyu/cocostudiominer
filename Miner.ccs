@@ -100,12 +100,45 @@
               <Image Name="tab_r0.png" />
               <Image Name="tab_r1.png" />
             </Folder>
+            <Folder Name="lucky">
+              <Image Name="bg.png" />
+              <Image Name="btn.png" />
+              <Image Name="btn_help.png" />
+              <Image Name="help.png" />
+              <Image Name="money_num.png" />
+              <Image Name="time_num.png" />
+            </Folder>
+            <Folder Name="game">
+              <Image Name="bg0.jpg" />
+              <Image Name="bg1.jpg" />
+              <Image Name="bg2.jpg" />
+              <Image Name="score_bar.png" />
+              <Image Name="score_bg.png" />
+              <Image Name="stage_name_bg.png" />
+              <Image Name="time_bg.png" />
+              <Image Name="time_num.png" />
+            </Folder>
           </Folder>
-          <Folder Name="sprite" />
+          <Folder Name="sprite">
+            <Folder Name="eva">
+              <Image Name="body.png" />
+              <Image Name="eye0.png" />
+              <Image Name="eye1.png" />
+              <Image Name="hand0.png" />
+              <Image Name="hand1.png" />
+              <Image Name="hand2.png" />
+              <Image Name="hand3.png" />
+              <Image Name="head.png" />
+            </Folder>
+          </Folder>
         </Folder>
         <Project Name="main.csd" Type="Scene" />
         <Project Name="shop.csd" Type="Scene" />
         <Project Name="stage.csd" Type="Scene" />
+        <Project Name="lucky.csd" Type="Layer" />
+        <Project Name="game.csd" Type="Layer" />
+        <Project Name="Node.csd" Type="Node" />
+        <Project Name="login.csd" Type="Layer" />
       </RootFolder>
     </Group>
   </SolutionFolder>
